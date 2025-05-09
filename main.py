@@ -21,6 +21,26 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 logger.info("Starting model training process")
+
+# Check if dataset file exists
+dataset_path = "./data/quiz-format.json"
+if not os.path.exists(dataset_path):
+    logger.error(f"Dataset file not found: {dataset_path}")
+    raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
+
+# Validate dataset file
+try:
+    with open(dataset_path, 'r') as f:
+        import json
+        data = json.load(f)
+        if not data or not isinstance(data, dict) or 'train' not in data:
+            logger.error(f"Dataset file is invalid or empty: {dataset_path}")
+            raise ValueError(f"Dataset file is invalid or empty: {dataset_path}")
+        logger.info(f"Dataset validation passed: {len(data.get('train', []))} training examples found")
+except json.JSONDecodeError:
+    logger.error(f"Dataset file contains invalid JSON: {dataset_path}")
+    raise ValueError(f"Dataset file contains invalid JSON: {dataset_path}")
+
 logger.info("Loading Qwen3-1.7B model and tokenizer")
 model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen3-1.7B")
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-1.7B")
@@ -34,8 +54,12 @@ lora_config = LoraConfig(
 model = get_peft_model(model, lora_config)
 
 logger.info("Loading training dataset")
-dataset = load_dataset("json", data_files="./data/quiz-format.json")
-logger.info(f"Dataset loaded with {len(dataset['train'])} examples")
+try:
+    dataset = load_dataset("json", data_files=dataset_path)
+    logger.info(f"Dataset loaded with {len(dataset['train'])} examples")
+except Exception as e:
+    logger.error(f"Failed to load dataset: {str(e)}")
+    raise
 
 logger.info("Setting up training arguments")
 training_args = TrainingArguments(
