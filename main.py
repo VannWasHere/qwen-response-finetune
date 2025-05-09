@@ -34,7 +34,7 @@ lora_config = LoraConfig(
 model = get_peft_model(model, lora_config)
 
 logger.info("Loading training dataset")
-dataset = load_dataset("json", data_files="quiz-format.json")
+dataset = load_dataset("json", data_files="./data/quiz-format.json")
 logger.info(f"Dataset loaded with {len(dataset['train'])} examples")
 
 logger.info("Setting up training arguments")
