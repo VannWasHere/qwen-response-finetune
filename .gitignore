@@ -7,3 +7,4 @@ venv*
 logs
 qwen_lora
 qwen_json_lora
+qwen_json_lora_final
