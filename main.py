@@ -4,7 +4,6 @@ from model_config import load_model_and_tokenizer
 from data_processing import load_data, prepare_datasets
 from training_config import setup_trainer
 
-# Clean up memory
 gc.collect()
 torch.cuda.empty_cache()
 
