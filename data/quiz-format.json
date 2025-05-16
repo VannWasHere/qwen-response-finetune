@@ -13,7 +13,7 @@
             "1945"
           ],
           "answer": "1939",
-          "hint": "The war began with Germany's invasion of Poland"
+          "explaination": "The war began with Germany's invasion of Poland"
         },
         {
           "question": "Who was the leader of Nazi Germany?",
@@ -24,7 +24,7 @@
             "Benito Mussolini"
           ],
           "answer": "Adolf Hitler",
-          "hint": "He was the leader of the Nazi Party and Chancellor of Germany"
+          "explaination": "He was the leader of the Nazi Party and Chancellor of Germany"
         },
         {
           "question": "What event caused the USA to enter the war?",
@@ -35,7 +35,7 @@
             "Hiroshima bombing"
           ],
           "answer": "Pearl Harbor",
-          "hint": "Japanese attack on a US naval base in Hawaii"
+          "explaination": "Japanese attack on a US naval base in Hawaii"
         },
         {
           "question": "Which country was invaded first by Germany?",
@@ -46,7 +46,7 @@
             "Czechoslovakia"
           ],
           "answer": "Poland",
-          "hint": "This invasion on September 1, 1939 marked the start of WWII"
+          "explaination": "This invasion on September 1, 1939 marked the start of WWII"
         },
         {
           "question": "What was the code name for the Normandy landings?",
@@ -57,7 +57,7 @@
             "Market Garden"
           ],
           "answer": "Overlord",
-          "hint": "The largest seaborne invasion in history"
+          "explaination": "The largest seaborne invasion in history"
         }
       ]
     }
@@ -76,7 +76,7 @@
             "define"
           ],
           "answer": "def",
-          "hint": "A three-letter keyword that stands for 'define'"
+          "explaination": "A three-letter keyword that stands for 'define'"
         },
         {
           "question": "Which data type is immutable?",
@@ -87,7 +87,7 @@
             "tuple"
           ],
           "answer": "tuple",
-          "hint": "This data type uses parentheses () and cannot be modified after creation"
+          "explaination": "This data type uses parentheses () and cannot be modified after creation"
         },
         {
           "question": "What symbol is used to comment a line in Python?",
@@ -98,7 +98,7 @@
             "<!--"
           ],
           "answer": "#",
-          "hint": "Also known as the pound or hash symbol"
+          "explaination": "Also known as the pound or hash symbol"
         }
       ]
     }
@@ -117,7 +117,7 @@
             "Mars"
           ],
           "answer": "Mercury",
-          "hint": "Named after the Roman messenger god"
+          "explaination": "Named after the Roman messenger god"
         },
         {
           "question": "What is the largest planet in our Solar System?",
@@ -128,7 +128,7 @@
             "Uranus"
           ],
           "answer": "Jupiter",
-          "hint": "Named after the king of the Roman gods"
+          "explaination": "Named after the king of the Roman gods"
         },
         {
           "question": "Which planet has a prominent ring system?",
@@ -139,7 +139,7 @@
             "Venus"
           ],
           "answer": "Saturn",
-          "hint": "Its rings are made mostly of ice and rock"
+          "explaination": "Its rings are made mostly of ice and rock"
         },
         {
           "question": "What is the name of Earth's natural satellite?",
@@ -150,7 +150,7 @@
             "Europa"
           ],
           "answer": "Moon",
-          "hint": "The only celestial body humans have walked on"
+          "explaination": "The only celestial body humans have walked on"
         }
       ]
     }
@@ -169,7 +169,7 @@
             "Cleopatra"
           ],
           "answer": "Tutankhamun",
-          "hint": "Also known as King Tut"
+          "explaination": "Also known as King Tut"
         },
         {
           "question": "What river was central to Ancient Egyptian civilization?",
@@ -180,7 +180,7 @@
             "Indus"
           ],
           "answer": "Nile",
-          "hint": "The longest river in the world"
+          "explaination": "The longest river in the world"
         },
         {
           "question": "What was the primary writing system of Ancient Egypt?",
@@ -191,7 +191,7 @@
             "Alphabet"
           ],
           "answer": "Hieroglyphics",
-          "hint": "Picture-based writing system deciphered using the Rosetta Stone"
+          "explaination": "Picture-based writing system deciphered using the Rosetta Stone"
         },
         {
           "question": "Which structure is considered the largest pyramid?",
@@ -202,7 +202,7 @@
             "Pyramid of Sneferu"
           ],
           "answer": "Pyramid of Khufu",
-          "hint": "Also known as the Great Pyramid of Giza"
+          "explaination": "Also known as the Great Pyramid of Giza"
         },
         {
           "question": "Who was the last pharaoh of Egypt?",
@@ -213,7 +213,7 @@
             "Ramses III"
           ],
           "answer": "Cleopatra",
-          "hint": "She allied with Julius Caesar and Mark Antony"
+          "explaination": "She allied with Julius Caesar and Mark Antony"
         }
       ]
     }
@@ -232,7 +232,7 @@
             "function"
           ],
           "answer": "let",
-          "hint": "Introduced in ES6 as a more secure alternative to var"
+          "explaination": "Introduced in ES6 as a more secure alternative to var"
         },
         {
           "question": "What is the output of 'typeof null'?",
@@ -243,7 +243,7 @@
             "string"
           ],
           "answer": "object",
-          "hint": "A known quirk in JavaScript, considered a bug by many"
+          "explaination": "A known quirk in JavaScript, considered a bug by many"
         },
         {
           "question": "Which method adds an element to the end of an array?",
@@ -254,7 +254,7 @@
             "unshift"
           ],
           "answer": "push",
-          "hint": "The opposite of pop()"
+          "explaination": "The opposite of pop()"
         }
       ]
     }
@@ -273,7 +273,7 @@
             "1865"
           ],
           "answer": "1861",
-          "hint": "The war began with the Battle of Fort Sumter"
+          "explaination": "The war began with the Battle of Fort Sumter"
         },
         {
           "question": "Who was the president of the United States during the Civil War?",
@@ -284,7 +284,7 @@
             "Andrew Johnson"
           ],
           "answer": "Abraham Lincoln",
-          "hint": "Known as the Great Emancipator"
+          "explaination": "Known as the Great Emancipator"
         },
         {
           "question": "What was the first major battle of the Civil War?",
@@ -295,7 +295,7 @@
             "Shiloh"
           ],
           "answer": "Bull Run",
-          "hint": "Also known as the Battle of Manassas"
+          "explaination": "Also known as the Battle of Manassas"
         },
         {
           "question": "Which document abolished slavery in the United States?",
@@ -306,7 +306,7 @@
             "Fugitive Slave Act"
           ],
           "answer": "13th Amendment",
-          "hint": "A Constitutional amendment ratified in 1865"
+          "explaination": "A Constitutional amendment ratified in 1865"
         }
       ]
     }
@@ -325,7 +325,7 @@
             "Cu"
           ],
           "answer": "Au",
-          "hint": "Derived from the Latin word 'aurum'"
+          "explaination": "Derived from the Latin word 'aurum'"
         },
         {
           "question": "Which element has the atomic number 1?",
@@ -336,7 +336,7 @@
             "Beryllium"
           ],
           "answer": "Hydrogen",
-          "hint": "The lightest and most abundant element in the universe"
+          "explaination": "The lightest and most abundant element in the universe"
         },
         {
           "question": "Which gas is the second most abundant element in the universe?",
@@ -347,7 +347,7 @@
             "Neon"
           ],
           "answer": "Helium",
-          "hint": "Named after the Greek word for the Sun"
+          "explaination": "Named after the Greek word for the Sun"
         },
         {
           "question": "What is the most reactive group in the Periodic Table?",
@@ -358,7 +358,7 @@
             "Transition Metals"
           ],
           "answer": "Alkali Metals",
-          "hint": "Located in Group 1 of the periodic table"
+          "explaination": "Located in Group 1 of the periodic table"
         },
         {
           "question": "Which element is a liquid at room temperature?",
@@ -369,7 +369,7 @@
             "Chlorine"
           ],
           "answer": "Mercury",
-          "hint": "Also known as quicksilver"
+          "explaination": "Also known as quicksilver"
         }
       ]
     }
@@ -388,7 +388,7 @@
             "Titian"
           ],
           "answer": "Leonardo da Vinci",
-          "hint": "This artist was also a renowned inventor and scientist"
+          "explaination": "This artist was also a renowned inventor and scientist"
         },
         {
           "question": "Which artist created the frescoes in the Sistine Chapel?",
@@ -399,7 +399,7 @@
             "Giotto"
           ],
           "answer": "Michelangelo",
-          "hint": "He spent four years painting the chapel ceiling"
+          "explaination": "He spent four years painting the chapel ceiling"
         },
         {
           "question": "What is the name of Botticelli's famous painting depicting a mythological birth?",
@@ -410,7 +410,7 @@
             "School of Athens"
           ],
           "answer": "The Birth of Venus",
-          "hint": "Shows the goddess of love emerging from the sea"
+          "explaination": "Shows the goddess of love emerging from the sea"
         }
       ]
     }
@@ -429,7 +429,7 @@
             "Supervised Learning"
           ],
           "answer": "Autonomous AI",
-          "hint": "Systems that operate independently"
+          "explaination": "Systems that operate independently"
         },
         {
           "question": "Which algorithm is commonly used for image recognition?",
@@ -440,7 +440,7 @@
             "K-Means Clustering"
           ],
           "answer": "Convolutional Neural Network",
-          "hint": "Designed to process pixel data in layers"
+          "explaination": "Designed to process pixel data in layers"
         },
         {
           "question": "What is the primary goal of reinforcement learning?",
@@ -451,7 +451,7 @@
             "Data Compression"
           ],
           "answer": "Maximizing Reward",
-          "hint": "Learning through trial and error with feedback"
+          "explaination": "Learning through trial and error with feedback"
         },
         {
           "question": "Which company developed the AI model Watson?",
@@ -462,7 +462,7 @@
             "Amazon"
           ],
           "answer": "IBM",
-          "hint": "Famous for winning at Jeopardy!"
+          "explaination": "Famous for winning at Jeopardy!"
         }
       ]
     }
@@ -481,7 +481,7 @@
             "Vivaldi"
           ],
           "answer": "Beethoven",
-          "hint": "Contains the 'Ode to Joy'"
+          "explaination": "Contains the 'Ode to Joy'"
         },
         {
           "question": "Which instrument is central to Vivaldi's 'The Four Seasons'?",
@@ -492,7 +492,7 @@
             "Cello"
           ],
           "answer": "Violin",
-          "hint": "Vivaldi was a virtuoso of this instrument"
+          "explaination": "Vivaldi was a virtuoso of this instrument"
         },
         {
           "question": "What is the nickname of Mozart's Symphony No. 41?",
@@ -503,7 +503,7 @@
             "Haffner"
           ],
           "answer": "Jupiter",
-          "hint": "Named after the Roman king of gods"
+          "explaination": "Named after the Roman king of gods"
         },
         {
           "question": "Who is known for the opera 'The Marriage of Figaro'?",
@@ -514,7 +514,7 @@
             "Puccini"
           ],
           "answer": "Mozart",
-          "hint": "Based on a play by Beaumarchais"
+          "explaination": "Based on a play by Beaumarchais"
         },
         {
           "question": "Which composer is associated with the Baroque period?",
@@ -525,7 +525,7 @@
             "Tchaikovsky"
           ],
           "answer": "Bach",
-          "hint": "Known for his Brandenburg Concertos"
+          "explaination": "Known for his Brandenburg Concertos"
         }
       ]
     }
@@ -544,7 +544,7 @@
             "1804"
           ],
           "answer": "1789",
-          "hint": "The year of the storming of the Bastille"
+          "explaination": "The year of the storming of the Bastille"
         },
         {
           "question": "Who was the king of France at the start of the Revolution?",
@@ -555,7 +555,7 @@
             "Napoleon"
           ],
           "answer": "Louis XVI",
-          "hint": "Married to Marie Antoinette"
+          "explaination": "Married to Marie Antoinette"
         },
         {
           "question": "What was the name of the prison stormed by revolutionaries?",
@@ -566,7 +566,7 @@
             "Tuileries"
           ],
           "answer": "Bastille",
-          "hint": "A symbol of royal authority and oppression"
+          "explaination": "A symbol of royal authority and oppression"
         }
       ]
     }
@@ -585,7 +585,7 @@
             "Linked List"
           ],
           "answer": "Stack",
-          "hint": "Think of a stack of plates"
+          "explaination": "Think of a stack of plates"
         },
         {
           "question": "What is the time complexity of searching in a balanced binary search tree?",
@@ -596,7 +596,7 @@
             "O(n^2)"
           ],
           "answer": "O(log n)",
-          "hint": "Each comparison eliminates half of the remaining nodes"
+          "explaination": "Each comparison eliminates half of the remaining nodes"
         },
         {
           "question": "Which data structure is used to implement a priority queue?",
@@ -607,7 +607,7 @@
             "Graph"
           ],
           "answer": "Heap",
-          "hint": "A specialized tree-based structure"
+          "explaination": "A specialized tree-based structure"
         },
         {
           "question": "What is the main advantage of a linked list over an array?",
@@ -618,7 +618,7 @@
             "Less memory"
           ],
           "answer": "Dynamic size",
-          "hint": "Can grow or shrink during runtime"
+          "explaination": "Can grow or shrink during runtime"
         }
       ]
     }
@@ -637,7 +637,7 @@
             "Apollo"
           ],
           "answer": "Zeus",
-          "hint": "God of thunder and lightning"
+          "explaination": "God of thunder and lightning"
         },
         {
           "question": "What creature is half man, half bull?",
@@ -648,7 +648,7 @@
             "Chimera"
           ],
           "answer": "Minotaur",
-          "hint": "Lived in the Labyrinth of Crete"
+          "explaination": "Lived in the Labyrinth of Crete"
         },
         {
           "question": "Who was the goddess of wisdom?",
@@ -659,7 +659,7 @@
             "Artemis"
           ],
           "answer": "Athena",
-          "hint": "Patron goddess of Athens"
+          "explaination": "Patron goddess of Athens"
         },
         {
           "question": "What was the name of the hero who killed Medusa?",
@@ -670,7 +670,7 @@
             "Jason"
           ],
           "answer": "Perseus",
-          "hint": "Used a mirrored shield to avoid her gaze"
+          "explaination": "Used a mirrored shield to avoid her gaze"
         },
         {
           "question": "What is the name of the river that separates the living from the underworld?",
@@ -681,7 +681,7 @@
             "Acheron"
           ],
           "answer": "Styx",
-          "hint": "Gods swore unbreakable oaths by this river"
+          "explaination": "Gods swore unbreakable oaths by this river"
         }
       ]
     }
@@ -700,7 +700,7 @@
             "Max Planck"
           ],
           "answer": "Werner Heisenberg",
-          "hint": "States that position and momentum cannot be precisely measured simultaneously"
+          "explaination": "States that position and momentum cannot be precisely measured simultaneously"
         },
         {
           "question": "What is the term for particles that can exist in multiple states simultaneously?",
@@ -711,7 +711,7 @@
             "Quantization"
           ],
           "answer": "Superposition",
-          "hint": "Famously illustrated by Schrödinger's cat thought experiment"
+          "explaination": "Famously illustrated by Schrödinger's cat thought experiment"
         },
         {
           "question": "Which equation describes the wave function of a quantum system?",
@@ -722,7 +722,7 @@
             "Maxwell Equation"
           ],
           "answer": "Schrödinger Equation",
-          "hint": "Fundamental equation of quantum mechanics"
+          "explaination": "Fundamental equation of quantum mechanics"
         }
       ]
     }
@@ -741,7 +741,7 @@
             "19th"
           ],
           "answer": "18th",
-          "hint": "Started in Britain around 1760"
+          "explaination": "Started in Britain around 1760"
         },
         {
           "question": "What was the primary source of power for early factories?",
@@ -752,7 +752,7 @@
             "Solar"
           ],
           "answer": "Steam",
-          "hint": "Steam engines revolutionized manufacturing"
+          "explaination": "Steam engines revolutionized manufacturing"
         },
         {
           "question": "Who invented the spinning jenny?",
@@ -763,7 +763,7 @@
             "Samuel Morse"
           ],
           "answer": "James Hargreaves",
-          "hint": "A multi-spindle spinning frame"
+          "explaination": "A multi-spindle spinning frame"
         },
         {
           "question": "Which industry was revolutionized by the cotton gin?",
@@ -774,7 +774,7 @@
             "Telecommunication"
           ],
           "answer": "Textile",
-          "hint": "Made cotton processing much faster"
+          "explaination": "Made cotton processing much faster"
         }
       ]
     }
@@ -793,7 +793,7 @@
             "King Lear"
           ],
           "answer": "Hamlet",
-          "hint": "Set in Denmark"
+          "explaination": "Set in Denmark"
         },
         {
           "question": "Who is the protagonist of 'Romeo and Juliet'?",
@@ -804,7 +804,7 @@
             "Prospero"
           ],
           "answer": "Romeo",
-          "hint": "A young man from the Montague family"
+          "explaination": "A young man from the Montague family"
         },
         {
           "question": "What is the setting of 'A Midsummer Night's Dream'?",
@@ -815,7 +815,7 @@
             "Scotland"
           ],
           "answer": "Athens",
-          "hint": "Features fairies in a magical forest"
+          "explaination": "Features fairies in a magical forest"
         },
         {
           "question": "Which play is known as the 'Scottish Play'?",
@@ -826,7 +826,7 @@
             "The Tempest"
           ],
           "answer": "Macbeth",
-          "hint": "Features three witches"
+          "explaination": "Features three witches"
         },
         {
           "question": "Who is the villain in 'Othello'?",
@@ -837,7 +837,7 @@
             "Shylock"
           ],
           "answer": "Iago",
-          "hint": "Othello's trusted but deceitful advisor"
+          "explaination": "Othello's trusted but deceitful advisor"
         }
       ]
     }
@@ -856,7 +856,7 @@
             "Semi-supervised"
           ],
           "answer": "Supervised",
-          "hint": "Training data includes correct answers"
+          "explaination": "Training data includes correct answers"
         },
         {
           "question": "What is the purpose of a loss function?",
@@ -867,7 +867,7 @@
             "Normalize inputs"
           ],
           "answer": "Measure model error",
-          "hint": "Quantifies the difference between predictions and actual values"
+          "explaination": "Quantifies the difference between predictions and actual values"
         },
         {
           "question": "Which algorithm is used for clustering?",
@@ -878,7 +878,7 @@
             "Random Forest"
           ],
           "answer": "K-Means",
-          "hint": "Groups data into K number of clusters"
+          "explaination": "Groups data into K number of clusters"
         }
       ]
     }
@@ -897,7 +897,7 @@
             "Constantine"
           ],
           "answer": "Augustus",
-          "hint": "Born as Octavian, adopted son of Julius Caesar"
+          "explaination": "Born as Octavian, adopted son of Julius Caesar"
         },
         {
           "question": "What was the name of the Roman gladiatorial arena?",
@@ -908,7 +908,7 @@
             "Circus Maximus"
           ],
           "answer": "Colosseum",
-          "hint": "Also known as the Flavian Amphitheatre"
+          "explaination": "Also known as the Flavian Amphitheatre"
         },
         {
           "question": "Which emperor built a wall in Britain?",
@@ -919,7 +919,7 @@
             "Claudius"
           ],
           "answer": "Hadrian",
-          "hint": "The wall marked the northernmost boundary of Roman Britain"
+          "explaination": "The wall marked the northernmost boundary of Roman Britain"
         },
         {
           "question": "What was the official language of the Roman Empire?",
@@ -930,7 +930,7 @@
             "Etruscan"
           ],
           "answer": "Latin",
-          "hint": "The ancestor of Romance languages"
+          "explaination": "The ancestor of Romance languages"
         }
       ]
     }
@@ -949,7 +949,7 @@
             "Giant Squid"
           ],
           "answer": "Blue Whale",
-          "hint": "Can grow up to 100 feet long"
+          "explaination": "Can grow up to 100 feet long"
         },
         {
           "question": "Which marine animal is known for its ability to change color?",
@@ -960,7 +960,7 @@
             "Jellyfish"
           ],
           "answer": "Octopus",
-          "hint": "Has special cells called chromatophores"
+          "explaination": "Has special cells called chromatophores"
         },
         {
           "question": "What is the primary food source for coral reefs?",
@@ -971,7 +971,7 @@
             "Seagrass"
           ],
           "answer": "Algae",
-          "hint": "Lives symbiotically within coral polyps"
+          "explaination": "Lives symbiotically within coral polyps"
         },
         {
           "question": "Which ocean is the largest?",
@@ -982,7 +982,7 @@
             "Arctic"
           ],
           "answer": "Pacific",
-          "hint": "Covers about one-third of Earth's surface"
+          "explaination": "Covers about one-third of Earth's surface"
         },
         {
           "question": "What type of marine animal is a sea cucumber?",
@@ -993,7 +993,7 @@
             "Crustacean"
           ],
           "answer": "Echinoderm",
-          "hint": "Related to starfish and sea urchins"
+          "explaination": "Related to starfish and sea urchins"
         }
       ]
     }
@@ -1012,7 +1012,7 @@
             "Niels Bohr"
           ],
           "answer": "Albert Einstein",
-          "hint": "Published the Special Theory of Relativity in 1905"
+          "explaination": "Published the Special Theory of Relativity in 1905"
         },
         {
           "question": "What does the equation E=mc^2 represent?",
@@ -1023,7 +1023,7 @@
             "Quantum State"
           ],
           "answer": "Mass-Energy Equivalence",
-          "hint": "Shows that mass and energy are interchangeable"
+          "explaination": "Shows that mass and energy are interchangeable"
         },
         {
           "question": "What is the primary effect of special relativity?",
@@ -1034,7 +1034,7 @@
             "Black Hole Formation"
           ],
           "answer": "Time Dilation",
-          "hint": "Time moves slower at higher velocities"
+          "explaination": "Time moves slower at higher velocities"
         }
       ]
     }
